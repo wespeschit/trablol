@@ -13,7 +13,7 @@ body{
     background-position: center;
     background-size: 100%; 
 }
-a:link, a:visited{
+a:link, a:visited, p, h1, h2, h3{
 	color: rgb(201,170,113);
 	text-decoration: none;		
 }
@@ -28,11 +28,11 @@ header{
 	background-color: rgb(18,18,18);
 }
 
-header h1{
-	font-size: 2em;
+/*header h1{
+	font-size: 2.0em;
 	color: rgb(201,170,113);
 	padding-top: 12px;	
-}
+}*/
 
 header nav{
 	text-align: right;
@@ -71,26 +71,91 @@ header li:hover{
 
 #main-content{
 	width: 90%;
-	margin: 0 auto;
+	margin: 10px auto;	
 }
-#main-content p{
-	font-size: 1.5em;	
+#main-content p{		
 	color: rgb(201,170,113);
 }
 
 #main-content section{
-	padding: 10px;
-	margin: 60px 0;
-	background-color: rgba(1,29,33,0.8);
+	padding: 10px auto;
+	margin: 10px;	    	
 }
 
 
 
+
+/*------------------------video-main---------------------------*/
+#video-main{
+	
+	margin: 10px auto;
+	width: 99%;
+	height: auto;
+	border: 2px solid rgb(201,170,113);
+}
+
 /*--------------------------caracteristicas-main---------------------*/
+#rots-camps-tutos{
+	width: 100%;
+	height: 100%;	
+}
+
+#rots-camps-tutos .rots-camps-tutos{
+	background-color:rgba(18,18,18,0.8); 
+	width: 29%;
+	text-align: center;
+	float: left;	
+	border: 1px solid rgb(201,170,113);	
+	padding: 5px;
+	height: 325px; 	
+	margin: 0 1%;
+}
+
+.rots-camps-tutos img{	
+	border: 1px solid rgb(201,170,113);
+	border-radius: 50%;
+	margin: 5px 0;
+	width: 90px;
+	height: 90px;
+}
+
+.rots-camps-tutos a{
+	display: block;
+	border: 1px solid rgb(201,170,113);	
+	margin-bottom: 0;			
+	padding: .5em;	
+}
+
+.rots-camps-tutos p{
+	margin-bottom: 27px;
+	font-size: 1.0em; 
+}
+
+.rots-camps-tutos h2{
+	margin-bottom: 10px;
+	font-size: 1.3em; 
+}
 
 
+.rots-camps-tutos a:hover{
+	display: block;				
+	padding: .5em;
+	background-color: rgb(201,170,113);
+	color: rgb(18,18,18);
+	
+}
 
-''
+#link-rotas{
+	margin-top: 75px; 
+}
+
+#link-camps{
+	margin-top: 60px;
+}
+
+#link-tutoriais{
+	margin-top: 90px;
+}
 
 
 
@@ -98,12 +163,83 @@ header li:hover{
 
 
 
-''
+.resumo-main{
+	background-color: rgb(18,18,18);
+	text-align: center;
+	font-size: 2em;
+}
+#resumo-main h1{
+	width: 90%;
+	background-color: rgba(18,18,18,0.7);
+	margin: 0 auto;
+}
+#resumo-main{
+	text-align: center;
+}
+
+audio{
+	display: hidden;
+}
 
 
 
-/*------------------------video-main---------------------------*/
-#video-main{
+
+/*----------------------------rotas------------------------------*/
+#rotas{
+	clear: left;
+	text-align: center;
+	background-color: rgba(18,18,18,0.95);
+	margin: ;
+	padding: ;
+	border-top: 3px dotted rgb(201,170,113);
+	border-bottom: 3px dotted rgb(201,170,113);
+	margin: 10px auto;
+	width: 99%;
+	height: 282px;
+}
+#rotas img{
+	width: 55%;
+	float: left;
+	margin-right: 5px;
+}
+
+#rotas h2{	
+	text-align: left;
+	font-size: 2em;
+	margin: 5px 0 10px 0;
+}
+
+#rotas p{
+	text-align: justify;
+	margin-left: 5px;
+}
+
+#rotas a{
+	display: inline-block;
+	border: 1px solid rgb(201,170,113);	
+	margin-top: 100px;			
+	padding: .5em;	
+}
+
+#rotas a:hover{
+	display: inline-block;				
+	padding: .5em;
+	background-color: rgb(201,170,113);
+	color: rgb(18,18,18);
+	
+}
+
+
+
+
+
+
+
+
+/*--------------------Footer-----------------------*/
+footer{	
 	width: 100%;
-	height: auto;
+	background-color: transparent;
+	clear: left;
+	
 }
