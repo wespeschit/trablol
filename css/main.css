@@ -203,7 +203,7 @@ audio{
 	margin-right: 5px;
 }
 
-#rotas h2{	
+#rotas h2, #campeoes h2{	
 	text-align: left;
 	font-size: 2em;
 	margin: 5px 0 10px 0;
@@ -229,9 +229,37 @@ audio{
 	
 }
 
+/*--------------------------campeoes------------*/
 
+#campeoes{
+	clear: left;
+	text-align: center;
+	background-color: rgba(18,18,18,0.95);
+	margin: ;
+	padding: ;
+	border-top: 3px dotted rgb(201,170,113);
+	border-bottom: 3px dotted rgb(201,170,113);
+	margin: 10px auto;
+	width: 100%;
+	height: 500px;
+}
+.campeoes{
+	float: left;
+	width: 30%;
+	padding: 10px;
+}
 
-
+.campeoes img{
+	border: 1px solid rgb(201,170,113);
+	width: 100%;
+	height: auto;
+}
+.campeoes p{
+	text-align: justify;
+}
+.campeoes h3{
+	font-size: 1.5em;
+}
 
 
 
@@ -239,7 +267,8 @@ audio{
 /*--------------------Footer-----------------------*/
 footer{	
 	width: 100%;
-	background-color: transparent;
+	background-color: rgb(18,18,18);
 	clear: left;
+	font-size: 0.8em;
 	
 }
