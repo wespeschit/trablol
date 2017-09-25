@@ -188,9 +188,7 @@ audio{
 #rotas{
 	clear: left;
 	text-align: center;
-	background-color: rgba(18,18,18,0.95);
-	margin: ;
-	padding: ;
+	background-color: rgba(18,18,18,0.95);	
 	border-top: 3px dotted rgb(201,170,113);
 	border-bottom: 3px dotted rgb(201,170,113);
 	margin: 10px auto;
@@ -261,6 +259,32 @@ audio{
 	font-size: 1.5em;
 }
 
+
+/*---------------------------tutoriais-------------*/
+
+#tutoriais{
+	clear: left;
+	text-align: center;
+	background-color: rgba(18,18,18,0.95);	
+	border-bottom: 2px solid rgb(201,170,113);
+	margin: 10px auto;
+	width: 100%;
+	height: 220px;
+}
+
+#tutoriais iframe{
+	border: 2px solid rgb(201,170,113);
+	width: 31%;
+	float: left;
+	height: 75%;	
+	margin: 0.7%;
+}
+
+#tutoriais h2{
+	font-size: 1.5em;
+	margin-top: 5px;
+	text-align: left;
+}
 
 
 
