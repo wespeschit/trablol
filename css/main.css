@@ -295,3 +295,7 @@ footer{
 	font-size: 0.8em;
 	
 }
+footer p{
+	display: inline-block;
+	float: left;
+}
