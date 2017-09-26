@@ -295,7 +295,7 @@ footer{
 	font-size: 0.8em;
 	
 }
-footer p{
+footer span{
 	display: inline-block;
-	float: left;
+	float: right;
 }
